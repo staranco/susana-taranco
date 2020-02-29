@@ -1,0 +1,544 @@
+            /* PROJECT PAGE */
+            .project .banner-project .text {
+                padding: 106px 20px 50px;
+            }
+
+                .project .banner-project .text > *:first-child {
+                    margin-top: 0;
+                }
+
+                .project .banner-project .text > *:last-child {
+                    margin-bottom: 0;
+                }
+
+                .project .banner-project h1 {
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-size: 1.875em;
+                    letter-spacing: .2em;
+                    margin: 0;
+                }
+
+                .project .banner-project .subtitle {
+                    font-size: 1.3em;
+                    color: #fff;
+                }
+
+                .project .banner-project {
+                    min-height: 250px;
+                    background-color: #3ec269;
+                    position: fixed;
+                    z-index: -1;
+                    text-align: center;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                }
+
+                .touch .project .banner-project {
+                    position: relative;
+                }
+
+                .project .content {
+                    margin-top: 250px;
+                    background: #f1f1f1;
+                    padding-bottom: 100px;
+                }
+
+                .touch .project .content {
+                    margin-top: 0 !important;
+                }
+
+                    .project .content .card {
+                        background: #fff;
+                        padding: 20px;
+                        width: 90%;
+                        margin: 0 auto;
+
+                        -o-transform: translateY(-30px);
+                        -ms-transform: translateY(-30px);
+                        -moz-transform: translateY(-30px);
+                        -webkit-transform: translateY(-30px);
+                        transform: translateY(-30px);
+                    }
+
+                        .project .content .card > *:first-child {
+                            margin-top: 0;
+                        }
+
+                        .project .content .card > *:last-child {
+                            margin-bottom: 0;
+                        }
+
+                        .project .content .card p {
+                            font-size: 1em;
+                        }
+
+                        .project .content .card .title {
+                            font-weight: 900;
+                            text-transform: uppercase;
+                        }
+
+                        .project .content .card .web-link {
+                            margin-top: 40px;
+                        }
+
+                    .project .content .task {
+                        width: 90%;
+                        margin: 0 auto;
+                        padding: 0 20px;
+                        margin: 0 auto;
+                    }
+
+                        .project .content .task ul {
+                            list-style-type: none;
+                            padding: 0;
+                            margin: 0;
+                            color: #2d3e50;
+                            font-size: 1.25em;
+                            letter-spacing: .1em;
+                        }
+
+                            .project .content .task li:before {
+                                content: "#";
+                                padding-right: 8px;
+                            }
+
+                    /* PROJECT SECTION */
+                    .project-section {
+                        margin: 100px auto;
+                    }
+
+                    .project-section:nth-child(2) {
+                        margin-top: 70px !important;
+                    }
+
+                    .project-section:last-child {
+                        margin-bottom: 0;
+                    }
+
+                        /* PROJECT SECTION - ONE TEXT */
+                        .project-section.one-text {
+                            max-width: 415px;
+                            margin: 0 auto;
+                            padding: 0 20px;
+                            text-align: center;
+                        }
+
+                            .project-section.one-text > *:first-child {
+                                margin-top: 0;
+                            }
+
+                            .project-section.one-text > *:last-child {
+                                margin-bottom: 0;
+                            }
+
+                        /* PROJECT SECTION - two TEXT */
+                        .project-section.two-text {
+                            max-width: 831px;
+                            padding: 0 20px;
+                            text-align: center;
+                        }
+
+                        /* PROJECT SECTION - IMAGES */
+                        .project-section.images {
+                            max-width: 831px;
+                            margin-bottom: 100px auto 80px;
+                            padding: 0 20px;
+                            text-align: center;
+                        }
+
+                            .project-section.images .columns {
+                                margin-bottom: 20px;
+                            }
+
+                        /* PROJECT SECTION - FULL-IMAGE */
+                        .project-section.full-image {
+                        }
+
+                /* PROjECT NAV */        
+                .project .project-nav {
+                    width: 100%;
+                    position: relative;
+                }
+
+                    .project .project-nav .prev,
+                    .project .project-nav .next {
+                        width: 100%;
+                        background: #3ec269;
+                        color: #fff;
+                        padding: 65px 100px 65px 20px;
+                        position: relative;
+                        display: block;
+                        text-decoration: none;
+                        border-top: 3px solid #fff;
+
+                        -o-transition: all 0.2s ease-in-out;
+                        -ms-transition: all 0.2s ease-in-out;
+                        -moz-transition: all 0.2s ease-in-out;
+                        -webkit-transition: all 0.2s ease-in-out;
+                        transition: all 0.2s ease-in-out;
+                    }
+
+                    .project .project-nav .prev {
+                        background: #45de77;
+                        padding: 65px 20px 65px 100px;
+                        text-align: right;
+                        border-top: none;
+                    }
+
+                        .project .project-nav > *:first-child {
+                            margin-top: 0;
+                        }
+
+                        .project .project-nav > *:last-child {
+                            margin-bottom: 0;
+                        }
+
+                        .project .project-nav p {
+                            font-size: 1.25em;
+                            margin-top: 0;
+                            margin-bottom: 0;
+                        }
+
+                        .project .project-nav .title {
+                            font-weight: 900;
+                            letter-spacing: .1em;
+                            text-transform: uppercase;
+                        }
+
+                        .project .project-nav .icon-prev,
+                        .project .project-nav .icon-next {
+                            position: absolute;
+                            top: 50%;
+                            margin-top: -30px;
+                            right: 23px;
+                        }
+
+                        .project .project-nav .icon-prev {
+                            right: auto;
+                            left: 23px;
+                        }
+
+                        .project .project-nav .icon-prev span,
+                        .project .project-nav .icon-next span {
+                            width: 26px;
+                            height: 3px;
+                            background: #fff;
+                            display: block;
+                            position: absolute;
+                            left: 50%;
+                            margin-left: -13px;
+                            
+                            -o-transition: all 0.3s;
+                            -ms-transition: all 0.3s;
+                            -moz-transition: all 0.3s;
+                            -webkit-transition: all 0.3s;
+                            transition: all 0.3s;
+                        }
+
+                        .project .project-nav .icon-prev span,
+                        .project .project-nav .icon-next span {
+                            width: 26px;
+                            height: 3px;
+                            background: #fff;
+                            display: block;
+                            position: absolute;
+                            left: 50%;
+                            margin-left: -13px;
+                            
+                            -o-transition: all 0.3s;
+                            -ms-transition: all 0.3s;
+                            -moz-transition: all 0.3s;
+                            -webkit-transition: all 0.3s;
+                            transition: all 0.3s;
+                        }
+
+                            /* ICON PREV */
+                            .project .project-nav .prev .icon-prev span.top {
+                                top: 17px;
+                                
+                                -webkit-transform: rotate(-45deg) translate(-3px,-2px);
+                                -moz-transform: rotate(-45deg) translate(-3px,-2px);
+                                -ms-transform: rotate(-45deg) translate(-3px,-2px);
+                                -o-transform: rotate(-45deg) translate(-3px,-2px);
+                                transform: rotate(-45deg) translate(-3px,-2px);
+                            }
+                            
+                            .project .project-nav .prev .icon-prev span.bottom {
+                                top: 33px;
+                                
+                                -webkit-transform: rotate(45deg) translate(-2px,3px);
+                                -moz-transform: rotate(45deg) translate(-2px,3px);
+                                -ms-transform: rotate(45deg) translate(-2px,3px);
+                                -o-transform: rotate(45deg) translate(-2px,3px);
+                                transform: rotate(45deg) translate(-2px,3px);
+                            }
+
+                            /* ICON NEXT */
+                            .project .project-nav .next .icon-next span.top {
+                                top: 17px;
+                                
+                                -webkit-transform: rotate(45deg) translate(3px,-2px);
+                                -moz-transform: rotate(45deg) translate(3px,-2px);
+                                -ms-transform: rotate(45deg) translate(3px,-2px);
+                                -o-transform: rotate(45deg) translate(3px,-2px);
+                                transform: rotate(45deg) translate(3px,-2px);
+                            }
+                            
+                            .project .project-nav .next .icon-next span.bottom {
+                                top: 33px;
+                                
+                                -webkit-transform: rotate(-45deg) translate(2px,3px);
+                                -moz-transform: rotate(-45deg) translate(2px,3px);
+                                -ms-transform: rotate(-45deg) translate(2px,3px);
+                                -o-transform: rotate(-45deg) translate(2px,3px);
+                                transform: rotate(-45deg) translate(2px,3px);
+                            }
+
+                    .project .project-nav .all-project {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        margin-top: -45px;
+                        margin-left: -45px;
+                        z-index: 20;
+                    }
+
+                        .project .project-nav .all-project .icon {
+                            width: 90px;
+                            height: 90px;
+                            background: #3ec269;
+                        }
+
+                        .project .project-nav .all-project .icon:before {
+                            content: '';
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            background: url(../img/icon_grid_portfolio.png) no-repeat center center;
+                        }
+
+                        /* @2x Images */   
+                        @media only screen and (-o-min-device-pixel-ratio: 5/4),
+                               only screen and (-webkit-min-device-pixel-ratio: 1.25),
+                               only screen and (min-device-pixel-ratio: 1.25),
+                               only screen and (min-resolution: 1.25dppx) {
+                        .project .project-nav .all-project .icon:before {
+                            background: url(../img/icon_grid_portfolio@2x.png) no-repeat center center;
+                            background-size: 30px 30px;
+                        }
+                        }
+
+                        /* @3x Images */
+                        @media only screen and (-o-min-device-pixel-ratio: 9/4),
+                               only screen and (-webkit-min-device-pixel-ratio: 2.25),
+                               only screen and (min-device-pixel-ratio: 2.25),
+                               only screen and (min-resolution: 2.25dppx) {
+                        .project .project-nav .all-project .icon:before {
+                            background: url(../img/icon_grid_portfolio@3x.png) no-repeat center center;
+                            background-size: 30px 30px;
+                        }
+                        }
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+/* iPhone 4 - iPhone 5 - max-width: 320px */
+@media only screen and (max-width: 20em) {
+
+}
+
+/* Landscape phones to portrait tablet - 480px */
+@media only screen and (min-width: 30em) {
+}
+
+/* portrait tablet - 768px */
+@media only screen and (min-width: 48em) {
+
+            /* PROJECT PAGE */
+            .project .banner-project .text {
+                padding: 146px 20px 80px;
+            }
+
+                .project .banner-project h1 {
+                    font-size: 3.125em;
+                }
+
+                .project .banner-project .subtitle {
+                    font-size: 1.625em;
+                }
+
+            .project .content {
+                margin-top: 450px;
+            }
+
+                .project .banner-project {
+                    height: 450px;
+                }
+
+                    .project .content .card {
+                        padding: 30px;
+                        width: 33%;
+                        margin-left: 10%;
+                        float: left;
+                    }
+
+                    .project .content .task {
+                        float: right;
+                        width: 50%;
+                        padding-top: 60px;
+                    }
+
+                    /* PROJECT SECTION */
+                    .project-section {
+                        margin: 150px auto;
+                    }
+
+                    .project-section:nth-child(2) {
+                        margin-top: 90px !important;
+                    }
+
+                        /* PROJECT SECTION - two TEXT */
+                        .project-section.two-text {
+                            text-align: left;
+                        }
+
+                            .project-section.two-text .columns > *:first-child {
+                                margin-top: 0;
+                            }
+
+                            .project-section.two-text .columns > *:last-child {
+                                margin-bottom: 0;
+                            }
+
+                        /* PROJECT SECTION - IMAGES */
+                        .project-section.images {
+                            margin: 150px auto 130px;
+                        }
+
+                /* PROJECT NAV */
+                    .project .project-nav .prev,
+                    .project .project-nav .next {
+                        width: 50%;
+                        float: left;
+                        padding: 100px 140px 100px 100px;
+                        border-left: 2px solid #fff;
+                        border-top: none;
+                    }
+
+                    .project .project-nav .all-project:hover .icon,
+                    .project .project-nav .prev:hover,
+                    .project .project-nav .next:hover {
+                        background: #32b05b;
+                    }
+
+                    .project .project-nav .prev {
+                        padding: 100px 100px 100px 140px;
+                        border-right: 1px solid #fff;
+                        border-left: none;
+                    }
+
+                        .project .project-nav .next .icon-next {
+                            right: 23px;
+                        }
+
+                        .project .project-nav .prev .icon-prev {
+                            left: 23px;
+                        }
+
+                        .project .project-nav .prev:hover .icon-prev,
+                        .project .project-nav .next:hover .icon-next {
+                            margin-top: -33px;
+                            right: 20px;
+                            width: 66px;
+                            height: 66px; 
+                        }
+
+                        .project .project-nav .prev:hover .icon-prev {
+                            left: 20px;
+                        }
+
+                            /* ICON PREV */
+
+                            .project .project-nav .prev:hover .icon-prev span.top {
+                                -webkit-transform: rotate(-45deg) translate(-5px,0);
+                                -moz-transform: rotate(-45deg) translate(-5px,0);
+                                -ms-transform: rotate(-45deg) translate(-5px,0);
+                                -o-transform: rotate(-45deg) translate(-5px,0);
+                                transform: rotate(-45deg) translate(-5px,0);
+                            }
+
+                            .project .project-nav .prev:hover .icon-prev span.bottom {
+                                -webkit-transform: rotate(45deg) translate(0,5px);
+                                -moz-transform: rotate(45deg) translate(0,5px);
+                                -ms-transform: rotate(45deg) translate(0,5px);
+                                -o-transform: rotate(45deg) translate(0,5px);
+                                transform: rotate(45deg) translate(0,5px);
+                            }
+
+                            /* ICON NEXT */
+
+                            .project .project-nav .next:hover .icon-next span.top {
+                                -webkit-transform: rotate(45deg) translate(5px,0);
+                                -moz-transform: rotate(45deg) translate(5px,0);
+                                -ms-transform: rotate(45deg) translate(5px,0);
+                                -o-transform: rotate(45deg) translate(5px,0);
+                                transform: rotate(45deg) translate(5px,0);
+                            }
+
+                            .project .project-nav .next:hover .icon-next span.bottom {
+                                -webkit-transform: rotate(-45deg) translate(0,5px);
+                                -moz-transform: rotate(-45deg) translate(0,5px);
+                                -ms-transform: rotate(-45deg) translate(0,5px);
+                                -o-transform: rotate(-45deg) translate(0,5px);
+                                transform: rotate(-45deg) translate(0,5px);
+                            }
+
+}
+
+/* Large desktop - 1200px */
+@media only screen and (min-width: 75em) {
+
+            /* PROJECT PAGE */
+
+                    .project .content .card {
+                        width: 25%;
+                        margin-left: 20%;
+                    }
+
+                    /* PROJECT NAV */
+                    .project .project-nav .prev,
+                    .project .project-nav .next {
+                        padding: 100px 140px 100px 100px;
+                    }
+
+                    .project .project-nav .prev {
+                        padding: 100px 100px 100px 140px;
+                    }
+
+                        .project .project-nav .next .icon-next {
+                            right: 63px;
+                        }
+
+                        .project .project-nav .prev .icon-prev {
+                            left: 63px;
+                        }
+
+                        .project .project-nav .prev:hover .icon-prev,
+                        .project .project-nav .next:hover .icon-next {
+                            right: 60px;
+                        }
+
+                        .project .project-nav .prev:hover .icon-prev {
+                            left: 60px;
+                        }
+
+}
+
+/* Large desktop - 2000px */
+@media only screen and (min-width: 125em) {
+
+}
