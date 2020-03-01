@@ -79,6 +79,10 @@ textarea {
 .bg-blue    { background: rgb(0, 47, 187) !important; }
 .bg-gray    { background: #ebebeb !important; }
 
+@media only screen and (max-width: 48em) {
+    .color-dark-mobile    { color: #38444d !important; }
+}
+
 /* TEXT */
 
 h1,
@@ -211,195 +215,9 @@ input[type=submit]:active {
     transition: .07s;
 }
 
-/* FORM */
-
-.input {
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    width: 100%;
-    vertical-align: top;
-    overflow: hidden;
-    margin-top: 40px;
-}
-
-input:-webkit-autofill,
-textarea:-webkit-autofill,
-select:-webkit-autofill,
-input:-webkit-autofill:hover,
-textarea:-webkit-autofill:hover,
-select:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-textarea:-webkit-autofill:focus,
-select:-webkit-autofill:focus,
-input:-webkit-autofill:active,
-textarea:-webkit-autofill:active,
-select:-webkit-autofill:active {
-    background-color: #F1F1F4 !important;
-}
-
-.input:first-child {
-    margin-top: 0;
-}
-
-.input_field {
-    position: relative;
-    display: block;
-    float: right;
-    padding: 0.85em 0.15em;
-    margin-top: 20px;
-    width: 100%;
-    border: none;
-    border-radius: 0;
-    background: transparent;
-    color: #38444d;
-    font-weight: 900;
-    font-size: 1em; /*16px*/
-    font-family: 'Lato', sans-serif;
-    -webkit-appearance: none; /* for box shadows to show on iOS */
-}
-
-.input_field:focus {
-    outline: none;
-}
-
-.input_label {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    display: inline-block;
-    padding: 0;
-    width: 100%;
-    height: calc(100% - 20px);
-    color: #565759;
-    font-weight: 900;
-    font-size: .75em;
-    text-align: left;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    pointer-events: none;
-}
-
-.input_label-content {
-    display: block;
-    padding: 18px 20px 0 0;
-    background: #f1f1f1;
-}
-
-.input_label::before,
-.input_label::after {
-    content: '';
-    position: absolute;
-    bottom: 1px;
-    left: 0;
-    width: 100%;
-    border-bottom: 1px solid #aaa;
-}
-
-.input_label::after {
-    bottom: 0;
-    margin-top: 2px;
-    border-bottom: 3px solid #2fd565;
-
-    -o-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-
-    -o-transition: -o-transform 0.3s;
-    -ms-transition: -ms-transform 0.3s;
-    -moz-transition: -moz-transform 0.3s;
-    -webkit-transition: -webkit-transform 0.3s;
-    transition: transform 0.3s;
-}
-
-.input_field:focus + .input_label::after,
-.input_field.filled + .input_label::after,
-.input-filled .input_label::after {
-    -o-transform: translateX(0);
-    -ms-transform: translateX(0);
-    -moz-transform: translateX(0);
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-}
-
-.input_field:focus + .input_label .input_label-content,
-.input_field.filled + .input_label .input_label-content,
-.input-filled .input_label-content {
-    -moz-animation: anim-1 0.3s forwards;
-    -webkit-animation: anim-1 0.3s forwards;
-    animation: anim-1 0.3s forwards;
-}
-
-@-webkit-keyframes anim-1 {
-    50% {
-        opacity: 0;
-        -o-transform: translate3d(1em, 0, 0);
-        -ms-transform: translate3d(1em, 0, 0);
-        -moz-transform: translate3d(1em, 0, 0);
-        -webkit-transform: translate3d(1em, 0, 0);
-        transform: translate3d(1em, 0, 0);
-    }
-    51% {
-        opacity: 0;
-        -o-transform: translate3d(-1em, -28px, 0);
-        -ms-transform: translate3d(-1em, -28px, 0);
-        -moz-transform: translate3d(-1em, -28px, 0);
-        -webkit-transform: translate3d(-1em, -28px, 0);
-        transform: translate3d(-1em, -28px, 0);
-    }
-    100% {
-        opacity: 1;
-        -o-transform: translate3d(0, -28px, 0);
-        -ms-transform: translate3d(0, -28px, 0);
-        -moz-transform: translate3d(0, -28px, 0);
-        -webkit-transform: translate3d(0, -28px, 0);
-        transform: translate3d(0, -28px, 0);
-    }
-}
-
-@keyframes anim-1 {
-    50% {
-        opacity: 0;
-        -o-transform: translate3d(1em, 0, 0);
-        -ms-transform: translate3d(1em, 0, 0);
-        -moz-transform: translate3d(1em, 0, 0);
-        -webkit-transform: translate3d(1em, 0, 0);
-        transform: translate3d(1em, 0, 0);
-    }
-    51% {
-        opacity: 0;
-        -o-transform: translate3d(-1em, -28px, 0);
-        -ms-transform: translate3d(-1em, -28px, 0);
-        -moz-transform: translate3d(-1em, -28px, 0);
-        -webkit-transform: translate3d(-1em, -28px, 0);
-        transform: translate3d(-1em, -28px, 0);
-    }
-    100% {
-        opacity: 1;
-        -o-transform: translate3d(0, -28px, 0);
-        -ms-transform: translate3d(0, -28px, 0);
-        -moz-transform: translate3d(0, -28px, 0);
-        -webkit-transform: translate3d(0, -28px, 0);
-        transform: translate3d(0, -28px, 0);
-    }
-}
-
 .button {
     margin-top: 50px;
     text-align: center;
-}
-
-.form .small {
-    font-size: .75em;
 }
 
 /* ICONS */
@@ -903,7 +721,7 @@ html {
                         -ms-transform: translateX(-50%);
                         -o-transform: translateX(-50%);
                         transform: translateX(-50%);
-                        
+
                         transition: opacity .3s ease-in-out;
                     }
 
@@ -988,7 +806,7 @@ html {
             /* WORKS */
             .works {
                 margin-top: 100vh;
-                background: rgb(0, 47, 187);
+                background: rgb(255, 255, 255);
                 position: relative;
                 padding-bottom: 220px !important;
             }
@@ -1117,6 +935,25 @@ html {
                     margin-right: 0;
                     margin-top: 12px;
                     margin-left: 36px;
+                }
+
+                @media only screen and (max-width: 48em) {
+                    .about .text    { 
+                        flex-direction: column !important;
+                     }
+
+                     .about .text p.big {
+                         font-size: 24px;
+                     }
+     
+                     .about .text p.small {
+                         font-size: 16px;
+                     }
+
+                     .about .text p:last-child {
+                         margin-left: 0;
+                         margin-top: 24px;
+                     }
                 }
 
                     .about.active .text p {
